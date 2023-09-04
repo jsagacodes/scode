@@ -1,4 +1,4 @@
-# reels-tiktok
+# scode
 
 Instructions
 
@@ -12,7 +12,7 @@ Usual caption format is as follows:
     ✨ Repo: scode ✨
     ✨ Folder: cards/card-1 ✨
 
-    The completed code can be found on GitHub within the 'reels-tiktok/layouts/d1' repo.
+    The completed code can be found on GitHub within the 'scode/cards/card-1' repo.
 
     If you find what I share useful, tap the ♥️ icon and follow me on social platforms. I'd really appreciate it. 
     And, if you have any feedback or questions, let me know in the comments 💬. Thank you! No-bugs coding!
