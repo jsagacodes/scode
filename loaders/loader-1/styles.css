@@ -1,0 +1,58 @@
+/* @jsagacodes */
+.load {
+  position: relative;
+  display: inline-block;
+  border: 5px dotted #f13910;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border-style: solid solid dotted dotted;
+  box-sizing: border-box;
+  animation: rotate 1.8s linear infinite;
+}
+
+.load::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-sizing: border-box;
+  border: 5px dotted #f5efe6;
+  border-radius: 50%;
+  border-style: solid solid dotted;
+  height: 30px;
+  width: 30px;
+  transform-origin: center center;
+  animation: rotateBack 0.8s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateBack {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}

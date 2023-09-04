@@ -1,0 +1,36 @@
+/* @jsagacodes */
+
+.photo-gallery {
+	width: 35rem;
+	height: 22rem;
+	position: relative;
+	display: flex;
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	
+	border-radius: 10px;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.photo-gallery img {
+	width: 35rem;
+	height: 22rem;
+	position: sticky;
+	left: 0;
+	flex-shrink: 0;
+	object-fit: cover;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+	border-radius: 10px;
+}
+
+body{
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	background: #000000;
+}
+
+/* optional */
+.photo-gallery::-webkit-scrollbar{
+	display: none;
+}

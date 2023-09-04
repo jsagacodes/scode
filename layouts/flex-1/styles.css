@@ -1,0 +1,34 @@
+/* @jsagacodes */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    height: 80vh;
+}
+
+.red {
+    background: orangered;
+    flex: 1;
+}
+
+.brown {
+    background: yellowgreen;
+}
+
+.blue {
+    background: steelblue;
+}
+
+.aqua {
+    background: aqua;
+    flex: 1;
+}
+
+.container > div {
+    font-size: 100px;
+    padding: 3rem;    
+    color: white;
+}

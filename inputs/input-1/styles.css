@@ -1,0 +1,26 @@
+/* @jsagacodes */
+.input {
+    background-color: #000000;
+    max-width: 190px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
+    box-shadow: 3px 3px 2px #eeeeee;
+    /* text-align: center; */
+}
+
+.input:focus {
+    background-color: #000000;
+    color: #eeeeee;
+    outline-color: #cc0000;
+    box-shadow: -3px -3px 25px #cc0000;
+    transition: 0.1s;
+    transition-property: box-shadow;
+}
+
+body{
+    margin: 300px;
+    background-color: black;
+}

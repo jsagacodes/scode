@@ -1,0 +1,50 @@
+/* @jsagacodes */
+.container {
+  perspective: 50rem;
+}
+
+.card_img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.card {
+	width: 200px;
+	height: 250px;
+	border: 2px solid
+	rgba(233, 198, 198, 0.25);
+	position: relative;
+	border-radius: 4px;
+	transform-style: preserve-3d;
+	transition: transform .5s;
+}
+
+.card:hover {
+	transform: translateZ(0.7rem)
+	rotateX(20deg) rotateY(30deg);
+}
+
+.card_title {
+	color: #ffffff;
+	font-size: 1.5rem;
+	font-weight: 700;
+	position: absolute;
+	bottom: 40%;
+	right: 0.7rem;
+	transform: translateY(-50%);
+	transition: transform .5s;
+}
+
+.card:hover .card_title {
+	transform: translateZ(3.1rem);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #000000;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
