@@ -67,7 +67,7 @@ body{
 .container .card:hover .imgBx{
   top: 0%;
   transform: translateY(0%);
-    
+  
 }
 
 .container .card .imgBx img{
